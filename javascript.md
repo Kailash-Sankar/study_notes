@@ -15,11 +15,11 @@
 #### Topics
 * Primitives
   - undefined, null, boolean, string and number
-* array
+* Array
 	 - arr1.push(arr2) this will push arr2 as a single element in to arr1
    - reverse gives a reference and also reverse the array it's called on
    - slice accepts negative indices, arr1.slice(-1);
-* Objects
+* Object
 	- creating objects
 		- object literal {}
 		- new Object()
@@ -38,7 +38,7 @@
 	- property attributes: Object.defineProperty()
 		- value, enumerable, configurable, and writable
 	- prototype
-* Functions
+* Function
   - hoisting
   - self invoking, anonymous
   - object properties
@@ -51,7 +51,8 @@
   	- function constructor, new func(a,b)
   	- call, func.call(obj,a,b);
   	- apply, func.apply(obj,[a,b]);
-* Closures
+  	- bind, bind a context with a function
+* Closure
 	- global and local scope
 	- wihout var keyword variables become global
 	- allows function to have a private global variables
@@ -59,7 +60,7 @@
 	- closure is the combination of a function and the lexical environment within which that function was declared.
 	- private scope
 	- closures on loops can go wrong
-* Promises
+* Promise
 	- A promise can only succeed or fail once
 	- If a promise has succeeded or failed and you later add a success/failure callback, the correct callback will be called, even though the event took place earlier.
   - fulfilled: The action relating to the promise succeeded
@@ -79,6 +80,7 @@
   - document.forms[1] or document.forms["myForm"] or document.forms.myForm.
   - Custom events
   - Bubbling
+* Iterators and Generators
 * Gotchas
   - == and ====
   - hasOwnProperty

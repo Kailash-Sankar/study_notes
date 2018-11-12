@@ -11,11 +11,13 @@
   - Python uses call by Object
     - Call by value & Call by reference
     - Call by object & Call by object reference
-* Interpreter
-* Dynamic typing
-  - Python support dynamic typing
-  - set s = ‘abc’; later we can define s=3 (variable is defined as a string and later changed to number).
-  - Variable type is defined when its assigned and can change dynamically
+* lang
+  - Interpreter
+  - Dynamic typing
+    - Python support dynamic typing
+    - set s = ‘abc’; later we can define s=3 (variable is defined as a string and later changed to number).
+    - Variable type is defined when its assigned and can change dynamically
+  - functions are first-class objects
 * list vs tuple
     - Mutable vs immutable
     - Tuple is a bit faster because it’s like a constant with defined number of objects.
@@ -63,9 +65,9 @@
   - `re.search(‘<pattern>’, <string>, flag(eg: re.IGNORECASE) )` : searches entire string and returns first match.
   - `re.match(‘<pattern>’, <string>, flag(eg: re.IGNORECASE) )` : matches from begining.
   - `findall(<pattern>, <string>, flag)` : find all the matches and return as a list/tuple.
-  - `re.sub(<string>, <sub_string>, <string_variable>, <count>, flag)` : substitutes all the occurance of string with sub_string. Returns the substituted string.
+  - `re.sub(<pattern>, <sub_string>, <string_variable>, <count>, flag)` : substitutes all the occurance of string with sub_string. Returns the substituted string.
     - If count = 0 or not defined, then replaces all occurance, if 1 then replaces first occurrence.
-  - `re.subn(<string>, <sub_string>, <string_variable>, <count>, flag)` : same as substitute, along with the string this will return number of substitute as tuple.
+  - `re.subn(<pattern>, <sub_string>, <string_variable>, <count>, flag)` : same as substitute, along with the string this will return number of substitute as tuple.
   - `re.split(<pattern>, <string>)` : splits the string with pattern and returns list.
 * join
   - `‘ ’.join(<list/tuple>)` : joins the list elements and creates a string.
@@ -90,7 +92,7 @@
   - `fh.close()` : to close the file.
   - for traversing we can also use `for line in fh`
   - With open(<file_name>) as f:
-    - When using with, we don't need to close the file, it will do automatically even if any exception occurs.
+    - When using with, we don't need to close the file, it will do so automatically even if any exception occurs.
 * Iterator
   - An object that can be iterated.
   - `__iter__` returns iterator object.
@@ -141,6 +143,8 @@
     - `t1.join()` : this will execute thread(t1) first, then it will execute the main program.
 * Multiprocesing
 * GIL (Global Interpreter Lock)
+* Random
+  - shuffle, randint, randrange, choice
 * More
   - assert
   - repr(!r) and str(!s)
@@ -148,11 +152,18 @@
   - collections.namedtuples
   - copy and deepcopy
   - Pickling and Unpickling
-  - Private heap, memory manager and garbage collector
+    - converting objects in to string and parsing them back
+  - Memory
+    - All Python objects and data structures are located in a private heap
+    - memory manager handles the allocation of heap space
+    - garbage collector recycles all the unused memory and so that it can be made available to the heap space
 * Guide
-  - PyChecker - finding bugs
-  - PEP8 - standrad syntax
+  - PyChecker - static analysis, finding bugs
+  - Pylint
+  - PEP8 - coding convention
   - import this -  Zen of Python
+* Qs
+  - list vs tuple
 * Links
   - https://realpython.com/instance-class-and-static-methods-demystified/
   - https://www.journaldev.com/14893/python-property-decorator

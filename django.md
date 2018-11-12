@@ -61,6 +61,8 @@
     - `Posts.objects.filter(Q(published=true) & Q(title__icontains='tutorial'))`
     - `Posts.objects.filter(Q(published=true) | Q(title__icontains='tutorial'))`
     - `Posts.objects.filter(~Q(title__icontains='tutorial')`
+* Session Management
+  - 
 * Qs
   - blank=ture vs null=true in django models
     - null=true sets NULL value for the column in db
