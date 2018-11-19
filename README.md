@@ -23,3 +23,7 @@ There are some documents in Docs/ for further reading.
 
 ### Software development
  * principles.md
+ 
+### Interviews
+* questions.md
+* https://github.com/MaximAbramchuck/awesome-interview-questions
