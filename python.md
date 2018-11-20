@@ -169,3 +169,4 @@
   - https://www.journaldev.com/14893/python-property-decorator
   - https://www.programiz.com/python-programming/args-and-kwargs
   - https://www.python-course.eu/passing_arguments.php
+  - https://www.programiz.com/python-programming/iterator

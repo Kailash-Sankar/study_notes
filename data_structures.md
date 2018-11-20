@@ -35,6 +35,12 @@
 		- left subtree is lesser and right subtree is greater
 		- should be balanced to maintain O(nlogn) for insertion, deletion and searching.
 		- average case: O(logn), worst case (unbalanced): O(n)
+	- Heap
+		- binary tree where all nodes are in a specific order and it's shape must be complete
+		- heap order property - min heap and max heap
+		- addition is done only at the left most available sopt in the tree
+		- 
 * Links
 	- https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
 	- https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+	- https://medium.com/@vaidehijoshi

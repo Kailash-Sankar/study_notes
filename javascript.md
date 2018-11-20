@@ -80,6 +80,8 @@
   - document.forms[1] or document.forms["myForm"] or document.forms.myForm.
   - Custom events
   - Bubbling
+  - document.ready: called when page DOM is ready for code to execute, before images
+  - document.onload: called when all content is loaded - images, scripts.
 * Iterators and Generators
 * Gotchas
   - == and ====
