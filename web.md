@@ -16,8 +16,14 @@
     - 404 : Not Found
     - 500 : Internal Server Error
   - RESTful API
+  - Authentication
+    - OAuth
+  - Headers
+    - content-type
+    - accept
 
 #### Links
 * https://assertible.com/blog/7-http-methods-every-web-developer-should-know-and-how-to-test-them
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201
 * https://martinfowler.com/articles/richardsonMaturityModel.html
+* https://webmasters.stackexchange.com/questions/31212/difference-between-the-accept-and-content-type-http-headers

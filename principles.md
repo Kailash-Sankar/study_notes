@@ -19,3 +19,6 @@
 * Event driven programming
 * Behavior-driven development (BDD) 
 * Test drived development (TDD)
+
+#### Links
+* https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
