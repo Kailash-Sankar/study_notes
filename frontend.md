@@ -1,7 +1,11 @@
 # Frontend
 
-* Service workers
+
+#### Shadow DOM
 
 
-#### Links
+#### Virtual DOM
+
+
+#### Service workers
 * https://serviceworkies.com/
