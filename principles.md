@@ -12,13 +12,13 @@
   - Liskov Substitution
   - Interface Segregation
   - Dependency Inversion, Dependency Injection
-* Microservices
-* A/B Testing
 * Concurrency
 * Parallelism
 * Event driven programming
 * Behavior-driven development (BDD) 
 * Test drived development (TDD)
+* Fundamental Theoram of Software Engineering (FTSE) -  any problem in software can be solved by adding a layer of indirection.
+* Inversion of Control
 
 #### Links
 * https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
