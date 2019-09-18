@@ -18,6 +18,11 @@ https://martinfowler.com/articles/micro-frontends.html
 Practice of having backend for each front end application. An Android app would have it's own backend, the web application would also have it's own and then these would interact with common lower level services.
 https://samnewman.io/patterns/architectural/bff/
 
+#### Big Ball of Mud
+
+A deep look in to defactor software architecture.
+http://www.laputan.org/mud/
+
 
 ### Concepts
 
