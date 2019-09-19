@@ -2,28 +2,33 @@
 Notes on few languages and frameworks for brushing up. Notes are in markdown format.
 There are some documents in Docs/ for further reading.
 
-### Python
-* python.md
-* https://github.com/Kailash-Sankar/learning_python
-* https://learnxinyminutes.com/docs/python/
-* https://docs.python-guide.org/
+### Topics Covered
+* Python
+  * [Notes](python.md)
+  * [Django](django.md)
+  * [5 days of Python](https://github.com/Kailash-Sankar/learning_python)
+* Javascript
+  * [Notes](javascript.md)
+  * [Node.js](nodejs.md)
+  * [Tools](tools.md)
+  * [React](react.md)
+* Database
+  * Notes(database.md)
+* Data Structures and Algorithms
+  * [Notes](data_structures.md)
+  * [Practice Repo](https://github.com/Kailash-Sankar/dsa)
+* Web Development
+  * [Notes](web.md)
+  * [Frontend](frontend.md)
+* Software development
+  * [Principles](principles.md)
+  * [Architecture](architecture.md)
+* Security
+  * [Notes](security.md)
+* Testing
+  * [Notes](testing.md)
+* Interview questions
+  * Questions (questions.md)
+  * [Curated List](https://github.com/MaximAbramchuck/awesome-interview-questions)
 
-### Javascript
- * javascript.md
- * nodejs.md
- * tools.md
 
-### Data Structures and Algorithms
- * data_structures.md
- * https://github.com/Kailash-Sankar/dsa
-
-### Web Development
- * web.md
- * tools.md
-
-### Software development
- * principles.md
- 
-### Interviews
-* questions.md
-* https://github.com/MaximAbramchuck/awesome-interview-questions
