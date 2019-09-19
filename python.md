@@ -165,6 +165,8 @@
 * Qs
   - list vs tuple
 * Links
+  - https://learnxinyminutes.com/docs/python/
+  - https://docs.python-guide.org/
   - https://realpython.com/instance-class-and-static-methods-demystified/
   - https://www.journaldev.com/14893/python-property-decorator
   - https://www.programiz.com/python-programming/args-and-kwargs
