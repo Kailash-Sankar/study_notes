@@ -20,6 +20,15 @@
   * reducer can call other functions, there can be multiple reducer functions tied up together
   * reducer composition can be done for arrays and objects
   * built-in combineReducers can be used for composition
+* Design
+  * Presentational components should be extracted out and wrapped by container components
+  * container components can be replaced by Provider/Connect setup
+  * Provider acts as a wrapper around the component making it's context available for all children
+  * Connect will make the redux store state and dispatch available and allow us to use it while generating props to children
+  * A components Own Props are combined the connect props, a custom merge function can be passed in
+  * A connect will null first param indicates that the component is not going to subscribe to the state
+  * A empty connect will still pass dispatch in props
+  
 * Gotchas
   * Be thoughtful of handling the initial state
   * avoid array mutation by using concat or spread and by returning array instead of push
