@@ -28,7 +28,7 @@
   * A components Own Props are combined the connect props, a custom merge function can be passed in
   * A connect will null first param indicates that the component is not going to subscribe to the state
   * A empty connect will still pass dispatch in props
-  
+  * Move action creaters outside to better document and oragnize code
 * Gotchas
   * Be thoughtful of handling the initial state
   * avoid array mutation by using concat or spread and by returning array instead of push
