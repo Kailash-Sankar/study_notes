@@ -64,3 +64,8 @@ https://medium.com/@Charles_Stover/optimal-file-structure-for-react-applications
 Pre commit hooks:
 
 https://medium.com/netscape/git-hooks-with-husky-8b98f2556363
+
+CSS Modules setup:
+https://stackoverflow.com/a/58190532/1878459
+
+
