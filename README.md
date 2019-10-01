@@ -12,6 +12,8 @@ There are some documents in Docs/ for further reading.
   * [Node.js](nodejs.md)
   * [Tools](tools.md)
   * [React](react.md)
+  * [Redux](redux.md)
+  * [Typescript](typescript.md)
 * Database
   * Notes(database.md)
 * Data Structures and Algorithms
