@@ -57,4 +57,14 @@
       
       # rename container
       docker rename oldname newname
+      
+      # docker logs
+      docker container logs webapp -f
 
+### Links
+
+      https://hub.docker.com/r/mysql/mysql-server/tags/?page=1&name=5.7
+      https://hub.docker.com/r/mikemanger/python27-mysql
+      https://dev.mysql.com/doc/mysql-installation-excerpt/5.5/en/docker-mysql-getting-started.html
+      https://github.com/docker-library/mysql/issues/275
+      
