@@ -51,4 +51,10 @@
 
       # list of stopped containers
       docker container ls -f "status=exited"
+      
+      # run container
+      docker run -d --restart=always --network=devnet --name=webapp -p 0.0.0.0:8000:8000 webapp:0.2
+      
+      # rename container
+      docker rename oldname newname
 
