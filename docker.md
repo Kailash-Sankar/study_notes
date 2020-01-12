@@ -34,6 +34,18 @@
 
       # access shell 
       docker exec -it dbserver bash
+      
+### docker network
+
+      # create a docker network
+      docker network create devnet
+      
+      # add containers to network, either by passing through run or while running
+      docker network connect devnet app-container
+      docker network connect devnet dbserver
+      
+      # from app-container
+      ping dbserver // works, resolves to dbserver.devnet
 
 ### useful docker commands
 
