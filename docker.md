@@ -60,6 +60,9 @@
       
       # docker logs
       docker container logs webapp -f
+      
+      # built with specific file
+      docker build -f testMode.Dockerfile -t webapp:0.1 .
 
 ### Links
 
