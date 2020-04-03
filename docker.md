@@ -35,6 +35,17 @@
       # access shell 
       docker exec -it dbserver bash
       
+### mongo db setup
+    # create a volume
+    # volumes are required to preseve data in case container fails
+    docker volume create mongodbdata
+    
+    # pull the image
+    docker pull mongo:4.2.1
+    
+    # run container
+    docker run -d --restart=always --network=devnet --name=mongodb -p 27017-27019:27017-27019 -v mongodbdata:/data/db mongo:4.2.1
+      
 ### docker network
 
       # create a docker network
