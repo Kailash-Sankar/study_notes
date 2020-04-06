@@ -1,3 +1,5 @@
+## setup docker
+      https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04
 
 ## setup mysql container
 
