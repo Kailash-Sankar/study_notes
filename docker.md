@@ -1,5 +1,8 @@
 ## setup docker
       https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04
+      
+      # change storage path
+      https://linuxconfig.org/how-to-move-docker-s-default-var-lib-docker-to-another-directory-on-ubuntu-debian-linux
 
 ## setup mysql container
 
@@ -79,6 +82,9 @@
 
     # update server connection string
     mongodb://<user>:<pwd>@127.0.0.1:27017/<db>?authSource=admin
+    
+    # mongodb replica set
+    https://www.sohamkamani.com/blog/2016/06/30/docker-mongo-replica-set/
       
 ### docker network
 
