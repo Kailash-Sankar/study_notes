@@ -47,6 +47,38 @@
     
     # run container
     docker run -d --restart=always --network=devnet --name=mongodb -p 27017-27019:27017-27019 -v mongodbdata:/data/db mongo:4.2.1
+    
+    # mongodb allows annonymous access until an admin account is created
+
+    # create admin account
+      use admin
+      db.createUser(
+        {
+          user: "devAdmin",
+          pwd: passwordPrompt(), // or cleartext password
+          roles: [ { role: "userAdminAnyDatabase", db: "admin" }, "readWriteAnyDatabase" ]
+        }
+      )
+    
+    # check for admin account
+    db.getSiblingDB('admin').system.users.find()
+
+    # shutdown
+    db.adminCommand( { shutdown: 1 } )
+
+    # add auth to mongo conf
+    vi /usr/local/etc/mongod.conf
+    security:
+            authorization: "enabled"
+    
+    # restart service
+    # mac
+    brew services restart mongodb-community
+    # linux
+    sudo systemctl restart mongod
+
+    # update server connection string
+    mongodb://<user>:<pwd>@127.0.0.1:27017/<db>?authSource=admin
       
 ### docker network
 
