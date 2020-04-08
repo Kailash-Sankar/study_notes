@@ -115,6 +115,9 @@
       # built with specific file
       docker build -f testMode.Dockerfile -t webapp:0.1 .
 
+## setting up server configurations
+      https://dantehranian.wordpress.com/2015/03/25/how-should-i-get-application-configuration-into-my-docker-containers/
+
 ### Links
 
       https://hub.docker.com/r/mysql/mysql-server/tags/?page=1&name=5.7
