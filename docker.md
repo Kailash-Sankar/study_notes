@@ -117,6 +117,9 @@
 
 ## setting up server configurations
       https://dantehranian.wordpress.com/2015/03/25/how-should-i-get-application-configuration-into-my-docker-containers/
+      
+## jenkins and github, deloy keys setup
+      https://medium.com/appgambit/ssh-authentication-between-github-and-jenkins-d873dd138db0
 
 ### Links
 
