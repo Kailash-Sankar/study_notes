@@ -73,6 +73,9 @@
     vi /usr/local/etc/mongod.conf
     security:
             authorization: "enabled"
+            
+    # for mongo in docker, pass auth command
+    docker run <mongodb> --auth
     
     # restart service
     # mac
