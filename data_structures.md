@@ -32,11 +32,11 @@
 		- https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d
 		- https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996
 * Trees
-	- Node key, child pointer
-	- root, parent, child, leaf
-	- Depth: number of edges frmo root
+	- Root, Link/Edge, Parent, Child, Sibling, Internal, Leaf
+	- Depth: number of edges from root
 	- Height: number of edges on the longest path to leaf
 	- Level: same as depth
+	- n nodes => n-1 edges/links
 	- Binary Tree
 		- Each node can have at most two children
 		- at any level, max 2\*\*i children
@@ -56,7 +56,8 @@
 		- binary tree where all nodes are in a specific order and it's shape must be complete
 		- heap order property - min heap and max heap
 		- addition is done only at the left most available sopt in the tree
-		- 
+	- Links
+		- https://medium.com/basecs/how-to-not-be-stumped-by-trees-5f36208f68a7
 		
 * Links
 	- https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
