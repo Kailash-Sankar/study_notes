@@ -1,5 +1,9 @@
 # Data Structures
 
+* Linear and Non Linear data structures
+* Static and Dynamic data structures
+* Big O Notation
+	- https://www.bigocheatsheet.com/
 * Arrays
 	- Row major indexing
 	- Column major indexing
@@ -10,10 +14,16 @@
 	- Constant time access
 	- Contiguous area of memory
 	- Equal size elements (what about unequal?)
-* Singly Linked List
-	- Node key and next pointer
-* Doubly Linked List
-	- Node key, next and prev pointer
+* Linked List
+	* Singly Linked List
+		- Node key and next pointer
+	* Doubly Linked List
+		- Node key, next and prev pointer
+	* Circular Linked List
+		- Single or Double, tail points to head
+	* Ref
+		- https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d
+		- https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996
 * Trees
 	- Node key, child pointer
 	- root, parent, child, leaf
@@ -40,7 +50,10 @@
 		- heap order property - min heap and max heap
 		- addition is done only at the left most available sopt in the tree
 		- 
+		
 * Links
 	- https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
 	- https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
 	- https://medium.com/@vaidehijoshi
+	
+
