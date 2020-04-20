@@ -3,6 +3,7 @@
 * Linear and Non Linear data structures
 * Static and Dynamic data structures
 * Big O Notation
+	- O(1) < O(logn) < O(n) < O(nlogn) < O(n2) < O(n!)
 	- https://www.bigocheatsheet.com/
 * Arrays
 	- Row major indexing
@@ -14,6 +15,12 @@
 	- Constant time access
 	- Contiguous area of memory
 	- Equal size elements (what about unequal?)
+* Stacks
+	- Last In, First Out
+	- https://medium.com/basecs/stacks-and-overflows-dbcf7854dc67
+* Queue
+	- First In, First Out
+	- https://medium.com/basecs/to-queue-or-not-to-queue-2653bcde5b04
 * Linked List
 	* Singly Linked List
 		- Node key and next pointer
