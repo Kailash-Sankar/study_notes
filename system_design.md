@@ -17,17 +17,17 @@
     - best of both
  
  - High level design steps
-  - Optimize processes and increase throughput (vertical)
-  - caching and pre-compute
-  - Resilience (backup)
-  - Horizontal scaling
-  - Mircroservices and Pools
-  - Distributed system (partitions)
-  - Fault tolerance
-  - Load balancer
-  - Decoupling
-  - Logging and metrics
-  - Extensible architecture
+    - Optimize processes and increase throughput (vertical)
+    - caching and pre-compute
+    - Resilience (backup)
+    - Horizontal scaling
+    - Mircroservices and Pools
+    - Distributed system (partitions)
+    - Fault tolerance
+    - Load balancer
+    - Decoupling
+    - Logging and metrics
+    - Extensible architecture
   
   - Load balancing
     - consistent hashing 
