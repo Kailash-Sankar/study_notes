@@ -59,6 +59,11 @@
 		- heap order property - min heap and max heap
 		- addition is done only at the left most available sopt in the tree
 		
+* Dynamic Programming
+	- overlapping subproblems
+	- bottom up approach
+	- tail call optimization
+		
 * Links
 	- https://medium.com/@vaidehijoshi
 	- https://medium.com/basecs
