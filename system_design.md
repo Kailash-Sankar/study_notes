@@ -61,3 +61,11 @@
     - heirarchical sharding
     - indexing
 
+- Caching
+  - LRU
+  - thrashing
+  - consistency
+  - global cache
+  - write-through: data is written in cache & DB; I/O completion is confirmed only when data is written in both places
+  - write-around: data is written in DB only; I/O completion is confirmed when data is written in DB
+  - write-back: data is written in cache first; I/O completion is confirmed when data is written in cache; data is written to DB asynchronously (background job)
