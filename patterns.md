@@ -25,7 +25,15 @@
   
 - Proxy
   - use one object as a placeholder for another
-  - access only through the proxy
+  - control access to an object, instead of using it directly
+  
+- Mediator
+  - define a mediator that encapsulates and controls how some set of objects interact with each other
+  
+- Visitor
+  - add or provide new methods or operations to a an existing object without modfying its source
+  - new functionality is kept in a visitor object
+  - like extending things
 
 - Command
   - Commands are an object-oriented replacement for callbacks
