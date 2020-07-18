@@ -14,4 +14,8 @@
   - https://codepen.io/kailash-sankar/pen/MWKzpeg
   - https://css-tricks.com/debouncing-throttling-explained-examples/
   
-
+- CORS
+  - access-control-allow-origin: only defined origins are allowed
+  - enforced by client(browser)
+  - preflight options request
+  - access-control-allow-headers
