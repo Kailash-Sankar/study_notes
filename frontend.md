@@ -8,7 +8,10 @@
   - capture phase runs before bubble phase
   - event.stopPropogation()
   - Delegation
+  - https://codepen.io/kailash-sankar/pen/eYJQgMX
   
-- Debouncing
+- Debouncing and Throttling
+  - https://codepen.io/kailash-sankar/pen/MWKzpeg
+  - https://css-tricks.com/debouncing-throttling-explained-examples/
   
 
