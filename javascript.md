@@ -8,7 +8,7 @@
 - Mutable vs Immutable
 - Hoisting - moving declarations to the top of the current scope
 - Module pattern
-- lexical scope
+- Lexical scope
 - Property shadowing
 - First class functions and Higher order functions
 
@@ -110,3 +110,5 @@
 #### Links
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
 * https://github.com/leonardomso/33-js-concepts
+* https://spin.atomicobject.com/2014/10/20/javascript-scope-closures/
+* https://stackoverflow.com/questions/12930272/javascript-closures-vs-anonymous-functions
