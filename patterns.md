@@ -12,6 +12,7 @@
   
 - Singleton
   - limit the number of instances of an object to one
+  - example: Database driver
   
 - Strategy
   - encapsualte a set of strategies or function together
@@ -39,4 +40,27 @@
   - Commands are an object-oriented replacement for callbacks
   - wrap logic as a callable object with actions
   - decoupling
-- 
+
+- Facade
+  - Hide inner components with a outer layer (like a building)
+  - example: Compiler
+  
+- Bridge(or Adapter)
+  - different context based on the bridge (like camera and lens)
+  
+  
+  
+General notes:
+  - break programs into logically independent components, have dependencies where necessary
+  - inspect and understand component interactions, keep one way data flow and classes simple
+  - simple number of class types and conventions, keep business logic out of view
+  - single responsibility principle
+  - ownership graph, which object owns which other objects - parent to child flow
+  - singletons (globals) and communication patterns. pub/sub approaches in case of two way dataflows
+  - Delegate 
+  - Chain of responsibility
+  - lazy initialization/lazy loading
+  - Adapters
+  - Factories
+  
+  
