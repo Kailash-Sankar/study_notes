@@ -1,6 +1,9 @@
 
 # System Design
 
+ Overview:
+ https://www.youtube.com/watch?v=-W9F__D3oY4
+
 - Scaling
   - Vertical
     - Bigger machine (bump specs)
@@ -34,6 +37,7 @@
     - reducing impact on horizontal scaling
     - skewed distribution
     - replica service id's to create at least log(x) distrubution points
+    - Software: ELB, HAProxy | Hardware: F5
 
 - Message/Task queue
   - heartbeats
@@ -69,3 +73,5 @@
   - write-through: data is written in cache & DB; I/O completion is confirmed only when data is written in both places
   - write-around: data is written in DB only; I/O completion is confirmed when data is written in DB
   - write-back: data is written in cache first; I/O completion is confirmed when data is written in cache; data is written to DB asynchronously (background job)
+ 
+  
