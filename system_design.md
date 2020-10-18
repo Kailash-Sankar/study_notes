@@ -4,6 +4,22 @@
  Overview:
  https://www.youtube.com/watch?v=-W9F__D3oY4
 
+ Distrubuted Systems:
+ https://www.youtube.com/watch?v=Y6Ev8GIlbxc
+  
+ Microservices:
+ https://www.youtube.com/watch?v=CZ3wIuvmHeM
+ 
+ Scaling:
+ https://www.youtube.com/watch?v=hnpzNAPiC0E
+ 
+ Streaming:
+ https://www.youtube.com/watch?v=IO4teCbHvZw
+ 
+ Messaging:
+ https://www.youtube.com/watch?v=WE9c9AZe-DY
+
+
 - Scaling
   - Vertical
     - Bigger machine (bump specs)
@@ -74,4 +90,8 @@
   - write-around: data is written in DB only; I/O completion is confirmed when data is written in DB
   - write-back: data is written in cache first; I/O completion is confirmed when data is written in cache; data is written to DB asynchronously (background job)
  
+
   
+  
+  
+ 
