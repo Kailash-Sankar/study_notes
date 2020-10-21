@@ -91,7 +91,8 @@
   - write-back: data is written in cache first; I/O completion is confirmed when data is written in cache; data is written to DB asynchronously (background job)
  
 
-  
+  AWS
+  https://www.youtube.com/watch?v=Jkx6kVbDpL4
   
   
  
